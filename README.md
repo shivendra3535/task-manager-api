@@ -31,35 +31,38 @@ bcrypt
 dotenv
 Project Architecture
 task-manager-api/
+project-root/
 
-project-root
-config
+config/
 db.js
 mongo.js
 swagger.js
 
-controllers
+controllers/
 authController.js
 taskController.js
 
-middleware
+middleware/
 authMiddleware.js
 errorMiddleware.js
 validateMiddleware.js
 
-models
+models/
 Task.js
 User.js
 
-routes
+routes/
 authRoutes.js
 taskRoutes.js
 
-utils
+utils/
 generateToken.js
+
 .env
 server.js
 README.md
+
+
 
 
 Folder Structure Explanation
