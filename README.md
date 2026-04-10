@@ -31,6 +31,8 @@ bcrypt
 dotenv
 Project Architecture
 task-manager-api/
+
+project-root/
 │
 ├── config/
 │   ├── db.js
@@ -60,6 +62,7 @@ task-manager-api/
 ├── .env
 ├── server.js
 └── README.md
+
 Folder Structure Explanation
 config/
 
