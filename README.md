@@ -33,35 +33,30 @@ Project Architecture
 task-manager-api/
 
 project-root/
-│
-├── config/
-│   ├── db.js
-│   ├── mongo.js
-│   └── swagger.js
-│
-├── controllers/
-│   ├── authController.js
-│   └── taskController.js
-│
-├── middleware/
-│   ├── authMiddleware.js
-│   ├── errorMiddleware.js
-│   └── validateMiddleware.js
-│
-├── models/
-│   ├── Task.js
-│   └── User.js
-│
-├── routes/
-│   ├── authRoutes.js
-│   └── taskRoutes.js
-│
-├── utils/
-│   └── generateToken.js
-│
-├── .env
-├── server.js
-└── README.md
+
+config/
+db.js
+mongo.js
+swagger.js
+controllers/
+authController.js
+taskController.js
+middleware/
+authMiddleware.js
+errorMiddleware.js
+validateMiddleware.js
+models/
+Task.js
+User.js
+routes/
+authRoutes.js
+taskRoutes.js
+utils/
+generateToken.js
+.env
+server.js
+README.md
+
 
 Folder Structure Explanation
 config/
